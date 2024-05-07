@@ -1,0 +1,27 @@
+{
+    "name": "svg-split-paths-cli",
+    "version": "0.0.1",
+    "description": "Convert an entire svg to path elements, split combined absolute paths into seperate paths, and save them to a new svg file",
+    "keywords": ["svg", "paths", "split", "svgson"],
+    "author": "Rainer Studhalter <rainer@studhalter.dev> (https://studhalter.dev)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rainerstudhalter/svg-split-paths-cli.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rainerstudhalter/svg-split-paths-cli/issues"
+    },
+    "homepage": "https://github.com/rainerstudhalter/svg-split-paths-cli#readme",
+    "type": "module",
+    "bin": {
+        "svg-split-paths": "cli.js"
+    },
+    "dependencies": {
+        "commander": "^11.1.0",
+        "is-svg": "^5.0.0",
+        "path-that-svg": "^1.2.4",
+        "svg-builder": "^2.0.0",
+        "svgson": "^5.3.1"
+    }
+}
